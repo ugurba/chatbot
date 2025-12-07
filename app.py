@@ -25,7 +25,7 @@ with st.sidebar:
     st.markdown("**Ingénieur Data & IA**")
     st.markdown("📍 Toulouse, France")
     st.markdown("📧 [ugur.balci@utoulouse.fr](mailto:ugur.balci@utoulouse.fr)")
-    st.markdown("🔗 [LinkedIn](https://linkedin.com/in/ugur-balci)")
+    st.markdown("🔗 [LinkedIn](https://linkedin.com/in/ugur-balci84700)")
     st.markdown("🐙 [GitHub](https://github.com/ugurba)")
     st.divider()
     
@@ -124,4 +124,5 @@ if prompt := st.chat_input("Ex: Quelles sont tes compétences en Python ?"):
 
         except Exception as e:
             st.error(f"Erreur : {e}")
+
             st.info("Astuce : Vérifiez que le nom du modèle (ligne 85) est bien celui qui fonctionne pour votre clé.")
